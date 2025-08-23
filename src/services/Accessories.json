@@ -1,0 +1,67 @@
+[
+  {
+    "id": 6,
+    "img": "/accessories/images1/img1.jpg",
+    "images": [
+      "/accessories/images1/img1.jpg",
+      "/accessories/images1/1.jpg",
+      "/accessories/images1/2.jpg"
+    ],
+    "title": "Unisex Silver-Toned Series 3 Smart Watch",
+    "name": "Apple",
+    "price": "Rs 31999",
+    "description": "Stay connected and track your health with the Apple Series 3 smartwatch. Featuring fitness tracking, notifications, and a sleek silver-toned design."
+  },
+  {
+    "id": 7,
+    "img": "/accessories/images2/img2.jpg",
+    "images": [
+      "/accessories/images2/img2.jpg",
+      "/accessories/images2/1.jpg",
+      "/accessories/images2/2.jpg"
+    ],
+    "title": "Unisex Black & Green Reflex 2.0 Smart Band",
+    "name": "Fastrack",
+    "price": "Rs 1999",
+    "description": "An affordable smart band by Fastrack with step tracking, calorie monitoring, and stylish black & green accents for everyday fitness tracking."
+  },
+  {
+    "id": 8,
+    "img": "/accessories/images3/img3.jpg",
+    "images": [
+      "/accessories/images3/img3.jpg",
+      "/accessories/images3/1.jpg",
+      "/accessories/images3/2.jpg"
+    ],
+    "title": "Unisex Black Galaxy Fit Fitness Band",
+    "name": "Samsung",
+    "price": "Rs 9990",
+    "description": "The Samsung Galaxy Fit band helps you monitor workouts, heart rate, and sleep. Designed with a sleek black strap for comfort and durability."
+  },
+  {
+    "id": 9,
+    "img": "/accessories/images4/img4.jpg",
+    "images": [
+      "/accessories/images4/img4.jpg",
+      "/accessories/images4/1.jpg",
+      "/accessories/images4/2.jpg"
+    ],
+    "title": "Gear IconX Black Cord-free Fitness Earbuds",
+    "name": "Samsung",
+    "price": "Rs 13990",
+    "description": "Cord-free earbuds by Samsung with fitness tracking, built-in storage for music, and crystal-clear sound quality. Perfect for workouts and daily use."
+  },
+  {
+    "id": 10,
+    "img": "/accessories/images5/img5.jpg",
+    "images": [
+      "/accessories/images5/img5.jpg",
+      "/accessories/images5/1.jpg",
+      "/accessories/images5/2.jpg"
+    ],
+    "title": "White 2nd Gen AirPods with Charging Case",
+    "name": "Apple",
+    "price": "Rs 14999",
+    "description": "Apple’s 2nd Gen AirPods with a sleek charging case deliver seamless Bluetooth connectivity, rich audio, and all-day comfort."
+  }
+]

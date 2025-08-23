@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "img": "/cloths/images1/img1.jpg",
+    "images": [
+      "/cloths/images1/img1.jpg",
+      "/cloths/images1/1.jpg",
+      "/cloths/images1/2.jpg",
+      "/cloths/images1/3.jpg",
+      "/cloths/images1/4.jpg"
+    ],
+    "title": "Men Navy Blue Solid Sweatshirt",
+    "name": "United Colors of Benetton",
+    "price": "Rs 2599",
+    "description": "A comfortable navy blue sweatshirt crafted with premium cotton blend fabric. Perfect for casual wear and layering in cool weather."
+  },
+  {
+    "id": 2,
+    "img": "/cloths/images2/img2.jpg",
+    "images": [
+      "/cloths/images2/img2.jpg",
+      "/cloths/images2/1.jpg",
+      "/cloths/images2/2.jpg"
+    ],
+    "title": "Men Black MAMGP T7 Sweat Sporty Jacket",
+    "name": "Puma",
+    "price": "Rs 7999",
+    "description": "A stylish sporty jacket designed by Puma with a sleek black finish and durable fabric. Ideal for workouts, travel, and everyday wear."
+  },
+  {
+    "id": 3,
+    "img": "/cloths/images3/img3.jpg",
+    "images": [
+      "/cloths/images3/img3.jpg",
+      "/cloths/images3/1.jpg",
+      "/cloths/images3/2.jpg",
+      "/cloths/images3/3.jpg",
+      "/cloths/images3/4.jpg",
+      "/cloths/images3/5.jpg"
+    ],
+    "title": "Men Black Action Parkview Lifestyle Shoes",
+    "name": "Hush Puppies",
+    "price": "Rs 6999",
+    "description": "Comfortable lifestyle shoes from Hush Puppies featuring cushioned insoles and a modern black design for all-day wear."
+  },
+  {
+    "id": 4,
+    "img": "/cloths/images4/img4.jpg",
+    "images": [
+      "/cloths/images4/img4.jpg",
+      "/cloths/images4/1.jpg",
+      "/cloths/images4/2.jpg",
+      "/cloths/images4/3.jpg",
+      "/cloths/images4/4.jpg"
+    ],
+    "title": "Women Black Solid Lightweight Leather Jacket",
+    "name": "BARESKIN",
+    "price": "Rs 9999",
+    "description": "A premium lightweight leather jacket with a timeless design. Perfect for adding a bold statement to your wardrobe."
+  },
+  {
+    "id": 5,
+    "img": "/cloths/images5/img5.jpg",
+    "images": [
+      "/cloths/images5/img5.jpg",
+      "/cloths/images5/1.jpg",
+      "/cloths/images5/2.jpg",
+      "/cloths/images5/3.jpg",
+      "/cloths/images5/4.jpg"
+    ],
+    "title": "Women Blue Solid Shirt Dress",
+    "name": "SASSAFRAS",
+    "price": "Rs 5200",
+    "description": "A chic blue solid shirt dress by SASSAFRAS, crafted with soft fabric. Great for casual outings or semi-formal gatherings."
+  }
+]
