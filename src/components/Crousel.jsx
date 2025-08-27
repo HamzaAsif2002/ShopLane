@@ -20,7 +20,7 @@ export const Crousel = () => {
       <img
         src={images[index]}
         alt=""
-        className="transition-opacity duration-700 opacity-100 ease-in-out"
+        className="transition-opacity duration-700 opacity-100 ease-in-out w-full h-auto"
       />
 
       {/* Dots */}
@@ -29,7 +29,7 @@ export const Crousel = () => {
           <button
             key={i}
             onClick={() => setIndex(i)} // Clickable dot
-            className={`w-1 h-1 rounded-full transition-all duration-300 
+            className={`w-1 h-1 rounded-full transition-all duration-300
               ${index === i ? "bg-black scale-125" : "bg-gray-400"}`}
           ></button>
         ))}

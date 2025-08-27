@@ -13,11 +13,8 @@ export const CardSection = ({ title, data }) => {
         {data.map((currelem) => {
           const { img, title, name, price, id } = currelem;
           return (
-            <NavLink to={`/${id}`}>
-              <div
-                key={id}
-                className="shadow-xl rounded-xl flex flex-col hover:shadow-2xl transition-shadow duration-300"
-              >
+            <NavLink to={`/${id}`} key={id}>
+              <div className="shadow-xl rounded-xl flex flex-col hover:shadow-2xl transition-shadow duration-300 h-full">
                 {/* Image Section */}
                 <div className="w-full aspect-[4/3]">
                   <img
@@ -28,9 +25,9 @@ export const CardSection = ({ title, data }) => {
                 </div>
 
                 {/* Content Section */}
-                <div className="flex flex-col justify-between px-2 py-3 gap-1 sm:gap-2">
+                <div className="flex flex-col px-2 py-3  flex-1 justify-between gap-5 h-fit">
                   <div className="font-bold text-sm sm:text-base">{title}</div>
-                  <div className="text-gray-600 font-bold text-xs sm:text-sm">
+                  <div className="text-gray-600 font-semibold text-xs sm:text-sm">
                     {name}
                   </div>
                   <div className="text-red-500 text-lg sm:text-xl font-bold">

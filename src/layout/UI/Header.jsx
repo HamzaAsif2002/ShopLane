@@ -1,22 +1,13 @@
-import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useCart } from "../../../CartContext.jsx";
 
 export const Header = () => {
-  const [cartCount, setCartCount] = useState(0);
+  const { cart } = useCart();
+  const totalItems = cart.reduce((sum, item) => sum + (item.quantity || 1), 0);
 
-  useEffect(() => {
-    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
-    setCartCount(storedCart.length);
-
-    // optional: keep it updated when localStorage changes
-    window.addEventListener("storage", () => {
-      const updatedCart = JSON.parse(localStorage.getItem("cart")) || [];
-      setCartCount(updatedCart.length);
-    });
-  }, []);
   return (
     <div className="w-full shadow-2xl bg-white sticky top-0 z-50">
-      <div className="w-[90%] flex flex-col md:flex-row justify-center md:justify-between items-center p-4 mx-auto gap-4 md:gap-0">
+      <div className="w-11/12 flex flex-col md:flex-row justify-center md:justify-between items-center p-4 mx-auto gap-4 md:gap-0">
         {/* Left section */}
         <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-4 md:gap-10 text-gray-800">
           <NavLink to="/">
@@ -43,7 +34,7 @@ export const Header = () => {
         {/* Right section */}
         <NavLink to="/cart">
           <div className="bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center">
-            <span>{cartCount}</span>
+            <span>{totalItems}</span>
           </div>
         </NavLink>
       </div>

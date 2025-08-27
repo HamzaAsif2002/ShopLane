@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import clothsData from "../services/Cloths.json";
 import accesData from "../services/Accessories.json";
 import { useState } from "react";
+import { useCart } from "../../CartContext";
 
 export const ProductDetails = () => {
   const { id } = useParams();
@@ -22,18 +23,25 @@ export const ProductDetails = () => {
     setMainImage(img);
   };
 
-  //Add to Cart.
-  const handleCartItem = (product) => {
-    // Get existing cart from localStorage (or empty array if none)
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  //handle cart
+  const { cart, setCart } = useCart();
 
-    // Add the new product
-    cart.push(product);
+  const addToCart = () => {
+    setCart((prevCart) => {
+      const existingItem = prevCart.find((item) => item.id === product.id);
 
-    // Save back to localStorage
-    localStorage.setItem("cart", JSON.stringify(cart));
-
-    alert(`${product.title} added to cart ✅`);
+      if (existingItem) {
+        // update quantity
+        return prevCart.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: (item.quantity || 1) + 1 }
+            : item
+        );
+      } else {
+        // add new product with quantity = 1
+        return [...prevCart, { ...product, quantity: 1 }];
+      }
+    });
   };
 
   return (
@@ -82,7 +90,7 @@ export const ProductDetails = () => {
         {/* Add to Cart Button */}
         <button
           className="px-4 sm:px-6 py-2 sm:py-3 bg-teal-600 text-white font-semibold rounded-md shadow-md hover:bg-teal-700 transition"
-          onClick={() => handleCartItem(product)}
+          onClick={addToCart}
         >
           Add to Cart
         </button>
