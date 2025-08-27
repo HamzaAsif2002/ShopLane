@@ -1,12 +1,28 @@
-# React + Vite
+# ShopLane - E-commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopLane is a modern e-commerce web application built with React and Tailwind CSS. It allows users to browse products, add them to the cart, and place orders. The design is fully responsive and user-friendly, providing a seamless shopping experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View product details
+- Add products to cart
+- Place orders with order summary
+- Responsive design for all screen sizes
+- Social media links and footer
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Home Page
+
+![Home Page](/homePage.png)
+
+### Product Page
+
+![Product Page](/productPage.png)
+
+## Technologies Used
+
+- **React** - Frontend framework
+- **Tailwind CSS** - Styling
+- **React Router** - Navigation
+- **Vite** - Build tool
