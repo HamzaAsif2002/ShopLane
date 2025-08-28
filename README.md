@@ -14,11 +14,11 @@ ShopLane is a modern e-commerce web application built with React and Tailwind CS
 
 ### Home Page
 
-![Home Page](/homePage.png)
+![Home Page](/public/homePage.png)
 
 ### Product Page
 
-![Product Page](/productPage.png)
+![Product Page](/public/productPage.png)
 
 ## Technologies Used
 
