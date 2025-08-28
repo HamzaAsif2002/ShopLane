@@ -83,7 +83,7 @@ export const Cart = () => {
   };
 
   return (
-    <div className="w-[90%] max-w-6xl mx-auto py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+    <div className="w-[90%]  mx-auto py-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
       {/* Left: Cart Items */}
       <div className="md:col-span-2">
         <h1 className="text-3xl font-bold mb-6">Your Cart</h1>

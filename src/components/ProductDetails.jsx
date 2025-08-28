@@ -45,7 +45,7 @@ export const ProductDetails = () => {
   };
 
   return (
-    <div className="w-[90%] max-w-7xl mx-auto flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10  items-center h-screen">
+    <div className="w-[90%]  mx-auto flex flex-col md:flex-col lg:flex-row gap-8 md:gap-10  items-center h-auto lg:h-[600px] my-3.5">
       {/* Left: Main Product Image */}
       <div className="flex-shrink-0 w-full max-w-[400px] aspect-[4/5] rounded-lg shadow-lg overflow-hidden border-2 border-transparent hover:border-teal-500 transition-all duration-300">
         <img
